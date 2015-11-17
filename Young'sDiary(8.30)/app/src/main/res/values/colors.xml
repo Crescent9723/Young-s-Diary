@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="selectedWeek" type="color">#dfde5d</item>
+    <item name="selectedVerticalBar" type="color">#dfde7d</item>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="match_parent" android:background="#808080">
+    <TextView   android:layout_width="0dip" android:minHeight="21dp"
+        android:background="@drawable/table_border" android:gravity="center"
+        android:text="@string/january" android:textColor="#000000" android:textStyle="bold" />
+    <TextView   android:layout_width="0dip" android:minHeight="21dp"
+        android:background="@drawable/table_border" android:gravity="center"
+        android:text="@string/february" android:textColor="#000000" android:textStyle="bold" />
+    <TextView   android:layout_width="0dip" android:minHeight="21dp"
+        android:background="@drawable/table_border" android:gravity="center"
+        android:text="@string/march" android:textColor="#000000" android:textStyle="bold" />
+    <TextView   android:layout_width="0dip" android:minHeight="21dp"
+        android:background="@drawable/table_border" android:gravity="center"
+        android:text="@string/april" android:textColor="#000000" android:textStyle="bold" />
+    <TextView   android:layout_width="0dip" android:minHeight="21dp"
+        android:background="@drawable/table_border" android:gravity="center"
+        android:text="@string/may" android:textColor="#000000" android:textStyle="bold" />
+    <TextView   android:layout_width="0dip" android:minHeight="21dp"
+        android:background="@drawable/table_border" android:gravity="center"
+        android:text="@string/june" android:textColor="#000000" android:textStyle="bold" />
+    <TextView   android:layout_width="0dip" android:minHeight="21dp"
+        android:background="@drawable/table_border" android:gravity="center"
+        android:text="@string/july" android:textColor="#000000" android:textStyle="bold" />
+    <TextView   android:layout_width="0dip" android:minHeight="21dp"
+        android:background="@drawable/table_border" android:gravity="center"
+        android:text="@string/august" android:textColor="#000000" android:textStyle="bold" />
+    <TextView   android:layout_width="0dip" android:minHeight="21dp"
+        android:background="@drawable/table_border" android:gravity="center"
+        android:text="@string/september" android:textColor="#000000" android:textStyle="bold" />
+    <TextView   android:layout_width="0dip" android:minHeight="21dp"
+        android:background="@drawable/table_border" android:gravity="center"
+        android:text="@string/october" android:textColor="#000000" android:textStyle="bold" />
+    <TextView   android:layout_width="0dip" android:minHeight="21dp"
+        android:background="@drawable/table_border" android:gravity="center"
+        android:text="@string/november" android:textColor="#000000" android:textStyle="bold" />
+    <TextView   android:layout_width="0dip" android:minHeight="21dp"
+        android:background="@drawable/table_border" android:gravity="center"
+        android:text="@string/december" android:textColor="#000000" android:textStyle="bold" />
+
+</TableRow>
+

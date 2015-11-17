@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:layout_weight="0.2" android:layout_height="match_parent" android:layout_width="0dp"
+        android:id="@+id/timeText" android:background="@drawable/table_border2" android:textStyle="bold"
+        android:gravity="center"/>
+    <LinearLayout android:layout_weight="0.8" android:layout_height="match_parent" android:layout_width="0dp"
+        android:orientation="vertical" android:id="@+id/dailyEventList" android:background="@drawable/table_border2"
+        android:divider="@drawable/divider" android:showDividers="middle">
+    </LinearLayout>
+</TableRow><!-- From: file:/C:/Users/Justin/Google%20Drive/Project/Young'sDiary(8.30)/app/src/main/res/layout/daily_row.xml -->

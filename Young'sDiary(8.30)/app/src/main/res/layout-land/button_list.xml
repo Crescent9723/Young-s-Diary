@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="0.07"
+    android:id="@+id/linearLayout"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/addEventButton"
+        android:src="@drawable/ic_add_icon"
+        android:scaleType="centerInside"
+        android:background="@drawable/button_border"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Year"
+        android:id="@+id/yearlyButton"
+        android:background="@drawable/button_border"
+        android:textSize="9sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Month"
+        android:id="@+id/monthlyButton"
+        android:background="@drawable/button_border"
+        android:textSize="9sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Week"
+        android:id="@+id/weeklyButton"
+        android:background="@drawable/button_border"
+        android:textSize="9sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Day"
+        android:id="@+id/dailyButton"
+        android:background="@drawable/button_border"
+        android:textSize="9sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Tag"
+        android:id="@+id/tagButton"
+        android:background="@drawable/button_border"
+        android:textSize="9sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Settings"
+        android:id="@+id/settingsButton"
+        android:background="@drawable/button_border"
+        android:textSize="8sp" />
+
+</LinearLayout>

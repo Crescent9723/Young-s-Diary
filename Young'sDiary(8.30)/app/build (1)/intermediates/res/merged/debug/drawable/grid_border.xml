@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape= "rectangle"  >
+    <solid android:color="#faebd7"/>
+    <stroke android:width="2px"  android:color="#a0a0a0"/>
+</shape><!-- From: file:/C:/Users/Justin/Google%20Drive/Project/Young'sDiary(8.30)/app/src/main/res/drawable/grid_border.xml -->

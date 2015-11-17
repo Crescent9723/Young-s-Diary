@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.nerdsnulls.youngsdiary.TagFragment"
+    android:background="@drawable/section_border">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.20"
+                android:id="@+id/tagEdit"
+                android:hint="@string/tag"
+                android:background="@drawable/section_border"/>
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.80"
+                android:id="@+id/eventList"
+                android:background="@drawable/section_border">
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+<!-- From: file:/C:/Users/Justin/Google%20Drive/Project/Young'sDiary(8.30)/app/src/main/res/layout/fragment_tag.xml -->

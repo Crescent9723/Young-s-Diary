@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="0.07"
+    android:id="@+id/linearLayout"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:id="@+id/addEventButton"
+        android:src="@drawable/ic_add_icon"
+        android:scaleType="centerInside"
+        android:background="@drawable/button_border" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:text="Y\ne\na\nr"
+        android:id="@+id/yearlyButton"
+        android:background="@drawable/button_border"
+        android:textSize="10sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="M\no\nn\nt\nh"
+        android:id="@+id/monthlyButton"
+        android:background="@drawable/button_border"
+        android:textSize="10sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:text="W\ne\ne\nk"
+        android:id="@+id/weeklyButton"
+        android:background="@drawable/button_border"
+        android:textSize="10sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:text="D\na\ny"
+        android:id="@+id/dailyButton"
+        android:background="@drawable/button_border"
+        android:textSize="10sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:text="T\na\ng"
+        android:id="@+id/tagButton"
+        android:background="@drawable/button_border"
+        android:textSize="10sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="27"
+        android:text="S\ne\nt\nt\ni\nn\ng\ns"
+        android:id="@+id/settingsButton"
+        android:background="@drawable/button_border"
+        android:textSize="10sp" />
+
+</LinearLayout><!-- From: file:/C:/Users/Justin/Google%20Drive/Project/Young'sDiary(8.30)/app/src/main/res/layout/button_list.xml -->

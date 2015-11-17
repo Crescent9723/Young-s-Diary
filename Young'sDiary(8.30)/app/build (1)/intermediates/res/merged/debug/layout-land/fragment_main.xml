@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nerdsnulls.youngsdiary.MainFragment"
+    android:background="@drawable/section_border">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:id="@+id/textView"
+        android:layout_marginTop="54dp"
+        android:textSize="100px"
+        android:textStyle="bold|italic"
+        android:singleLine="false"
+        android:clickable="false"
+        android:autoText="false"
+        android:minLines="2"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/linearLayout"
+        android:layout_toStartOf="@+id/linearLayout" />
+</LinearLayout><!-- From: file:/C:/Users/Justin/Google%20Drive/Project/Young'sDiary(8.30)/app/src/main/res/layout-land/fragment_main.xml -->
